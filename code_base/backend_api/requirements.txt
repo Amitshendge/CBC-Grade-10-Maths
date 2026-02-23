@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+authlib
+httpx
+boto3
+redis
+psycopg2-binary
+pymongo
+python-dotenv
+PyJWT
+python-multipart
+google-cloud-aiplatform
+google-genai
+itsdangerous
+reportlab

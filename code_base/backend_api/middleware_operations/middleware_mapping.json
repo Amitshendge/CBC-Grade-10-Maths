@@ -1,0 +1,51 @@
+{
+    "/": {
+        "GET": {
+            "description": "Root endpoint",
+            "public_route": true,
+            "roles_required": []
+        }
+    },
+    "/google/login":{
+        "GET":{
+            "description":"Initiates Google login process",
+            "public_route":true,
+            "roles_required":[]
+        }
+    },
+    "/google/logout":{
+        "GET":{
+            "description":"Initiates Google logout process",
+            "public_route":true,
+            "roles_required":[]
+        }
+    },
+    "/google/auth":{
+        "GET":{
+            "description":"Handles Google authentication callback",
+            "public_route":true,
+            "roles_required":[]
+        }
+    },
+    "/rag/vector_query":{
+        "GET":{
+            "description":"Vector query endpoint for RAG",
+            "public_route":false,
+            "roles_required":[]
+        }
+    },
+    "/lesson_planner/generate":{
+        "POST":{
+            "description":"Generate lesson plan from RAG + LLM",
+            "public_route":true,
+            "roles_required":[]
+        }
+    },
+    "/lesson_planner/pdf":{
+        "POST":{
+            "description":"Generate PDF from lesson plan JSON",
+            "public_route":true,
+            "roles_required":[]
+        }
+    }
+}

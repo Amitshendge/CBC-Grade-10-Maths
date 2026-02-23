@@ -1,5 +1,33 @@
+# If you modify this file, PreTeXt will no longer automatically update it.
+#
+# Boilerplate list of files in a PreTeXt project for git to ignore
+# ensure this file is tracked
+!.gitignore
+
+# don't track unpublished builds or stage (note: Runestone uses `published`)
+output
+published
+
+# don't track assets generated from source
+generated-assets/*
+!generated-assets/stack
+.cache
+assets/stack/images
+
+# gitsync stuff
+assets/stack/manifest_backups
+pull_ecampus.sh
+
+# random stuff
+tmp
+**/*.tmp
+
+# don't track the executables.ptx file
+executables.ptx
+orphaned.ptx
+
+# don't track node packages
 node_modules
-<<<<<<< Updated upstream
 
 # don't track backup files
 *.bak
@@ -90,16 +118,3 @@ codechat_config.yaml
 # Don't track deprecated workflows
 .github/workflows/deploy.yml
 .github/workflows/test-build.yml
-
-# secrets
-helpers/credentials.json
-helpers/google_ids.json
-credentials.json
-
-helpers/learning_outcomes.csv
-=======
-__pycache__
-*.pyc
-venv
-.venv
->>>>>>> Stashed changes

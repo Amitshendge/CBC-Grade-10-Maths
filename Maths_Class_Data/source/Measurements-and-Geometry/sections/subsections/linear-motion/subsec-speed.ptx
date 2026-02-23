@@ -1,0 +1,598 @@
+<subsection xml:id="subsec-speed-and-velocity" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Speed and Velocity</title>
+    <objectives component="outcomes">
+        <introduction>
+            <dl>
+                <li>
+                    <title>Strand</title>
+                    <p>
+                        2.0 Measurements and Geometry
+                    </p>
+                </li>
+                <li>
+                    <title>Sub-Strand</title>
+                    <p>
+                        2.10 Linear Motion
+                    </p>
+                </li>
+            </dl>
+        </introduction>
+        <ul>
+            <li>Draw a velocity-time graph from given tables in different situations</li>
+            <li>Interpret velocity-time graph in different situations</li>
+        </ul>
+    </objectives>
+    <axiom component="resources">
+        <!-- Link to blurb -->
+        <xi:include href="../../resources-blurb-lesson.ptx" />
+
+        <sbsgroup widths="45% 45%" margins="2% 2%">
+            <sidebyside>
+                <p>
+                    <dataurl source="lesson_plans/measurements-and-geometry/linear-motion/speed-and-velocity.pdf"> Lesson Plan </dataurl>
+                </p>
+                <p>
+                    <dataurl source="lesson_plans/measurements-and-geometry/linear-motion/step-by-step-guide_speed-and-velocity.pdf"> Step-by-Step Guide </dataurl>
+                </p>
+            </sidebyside>
+        </sbsgroup>
+    </axiom>
+    <activity xml:id="auto_h6mn155j">
+        <p xml:id="auto_3mewiecp">
+            <alert>Work in groups</alert>
+        </p>
+        <p xml:id="auto_07xj75zg">
+            <alert>Materials:</alert> Stop watch, Measuring tape and ball/round object 
+        </p>
+        <p xml:id="auto_hbxkhmsc">
+            <ol xml:id="auto_dn9d9xmm" marker="i).">
+                <li xml:id="auto_fmc41r8m">
+                    <p xml:id="auto_s7u475hr">
+                        Roll a ball or any round object on the table 
+                    </p>
+                </li>
+                <li xml:id="auto_o5qv37r1">
+                    <p xml:id="auto_zew8i2f4">
+                        Measure the rolling distance using the tape measure
+                    </p>
+                </li>
+                <li xml:id="auto_yezk4odq">
+                    <p xml:id="auto_9hs778yu">
+                        Record the time when rolling
+                    </p>
+                </li>
+                <li xml:id="auto_bnprfi5f">
+                    <p xml:id="auto_kbksijqv">
+                        Find the speed of the rolling ball
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+    <!-- <activity xml:id="auto_l5kqd4tu">
+        <p xml:id="auto_c1n4dexv">
+            <alert>Work in groups</alert>
+        </p>
+        <p xml:id="auto_gjq1c8v8">
+            A family drives 120 km at 60 km/h, stops for a 15-minute break, and then drives another 80 km at 40 km/h. 
+            What is the average speed for the entire trip?
+        </p>
+        <p xml:id="auto_5qxbxvfo">
+            <ol xml:id="auto_bxntm1pn">
+                <li xml:id="auto_ye90ye5a">
+                    <p xml:id="auto_3qkpunfr">
+                        Calculate the time for each driving segment
+                    </p>
+                </li>
+                <li xml:id="auto_xckcqjb1">
+                    <p xml:id="auto_l2n1tmok">
+                        Convert the break time to hours
+                    </p>
+                </li>
+                <li xml:id="auto_6enpacs4">
+                    <p xml:id="auto_awwdbso6">
+                        Calculate the total distance
+                    </p>
+                </li>
+                <li xml:id="auto_uq5wgv9s">
+                    <p xml:id="auto_7age1l7k">
+                        Calculate the total time
+                    </p>
+                </li>
+                <li xml:id="auto_damc3cda">
+                    <p xml:id="auto_a6ekx3yh">
+                        Calculate the average speed
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity> -->
+    <activity>
+        <introduction>
+            <p>
+                <alert>Work in groups</alert>
+            </p>
+            <p>
+                <alert>What you need</alert>
+            </p>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            Measuring tape (or marked floor tiles)
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Stopwatch
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Chalk/tape to mark positions
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Open space (classroom or field)
+                        </p>
+                    </li>
+                </ul>
+            </p>
+            <p>
+                <alert>What to do</alert>
+            </p>
+            <p>
+                Mark a central point and label it C (origin).
+            </p>
+            <p>
+                Measure and mark:
+            </p>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            Point A → 10 m East of C
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Point B → 10 m West of C
+                        </p>
+                    </li>
+                </ul>
+            </p>
+            <p>
+                Two students stand at point C.
+            </p>
+            <p>
+                The two groups of students to set the stopwatch and shout "go":
+                <ul>
+                    <li>
+                        <p>
+                            Student 1 walks to Point A (East)
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Student 2 walks to Point B (West)
+                        </p>
+                    </li>
+                </ul>
+            </p>
+            <p>
+                Record the time taken for each student to reach their respective points.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    For student 1 and student 2, calculate:
+                </p>
+                <p>
+                    <ol>
+                        <li>
+                            <p>
+                                The displacement
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The time taken
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                 The average velocity
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Compare the average velocity of student 1 and student 2. 
+                </p>
+            </statement>
+        </task>
+    </activity>
+    <insight xml:id="auto_apsvhtro">
+        <p xml:id="auto_p4nqgp90">
+          <term>Speed</term> is the rate of change of distance with time. SI unit: <m>km/h</m> .
+        </p>
+        <p>
+            Speed is how fast something moves.
+        </p>
+        <p xml:id="auto_clc1pufn">
+           Speed normally varies over time, so the average speed is often used
+        </p>
+        <p xml:id="auto_0pbnuzic">
+        <md>
+            <mrow>\text{Average speed} = \frac{\text{Total distance covered}}{\text{Total time taken}} </mrow>
+        </md>
+        </p>
+         <p xml:id="auto_p76g3hm7">
+          <term>Velocity</term> is Speed in a specified direction or the rate of change of displacement with time. SI unit: <m>km/h</m>.
+        </p>
+        <p xml:id="auto_aq99sptr">
+            Symbol of velocity is given as <term>v</term> while speed is given as <term>s</term>.
+        </p>
+         <p>
+        <md>
+            <mrow>\text{Average velocity} = \frac{\text{Total displacement}}{\text{Total time taken}} </mrow>
+        </md>
+        </p>
+        <p xml:id="auto_rgzq9lau">
+           or  <m> v = \frac{d}{t} </m>
+        </p>
+        <p xml:id="auto_nji9o7w9">
+            where <m>d</m> represents the distance and <m>t</m> represents time
+        </p>
+        <p xml:id="auto_jq1dsh3y">
+            For motion with <term>constant velocity</term>, the equation is 
+        </p>
+        <p xml:id="auto_nwym29tn">
+            <md>
+                <mrow> s = vt </mrow>
+            </md>
+        </p>
+        <p xml:id="auto_kgafqi3n">
+            where <m>v</m> is velocity , <m>t</m> is time and <m>s</m> is displacement
+        </p>
+       
+       
+    </insight>
+   
+    
+    <example xml:id="auto_4wdky1rp">
+        <statement>
+            <p xml:id="auto_qcss66kh">
+                A car travels 100 km in 2 hours. Find its speed.
+            </p>
+        </statement>
+            <solution>
+                <p xml:id="auto_9khiv5dk">
+                    <m>\text{Speed} = \frac{\text{distance}}{\text{time}}</m>
+                </p>
+                <p xml:id="auto_p7l4cwka">
+                    <m> \text{Speed} = \frac{100}{2} = 50 \text{ km/h} </m>
+                </p>
+                
+            </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                Find the velocity of a car that travels 150 km north in 3 hours.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Displacement = 150 km (in the north direction)
+            </p>
+            <p>
+                Time taken = 3 hours
+            </p>
+            <p>
+                Average velocity = Displacement / Time taken = 150 km / 3 h = 50 km/h (in the north direction)
+            </p>
+            <p>
+                <md>
+                    <mrow> \text{Average velocity} =\amp \frac{\text{Displacement}}{\text{Time taken}} </mrow>
+                    <mrow> =\amp \frac{150 \text{ km}}{3 \text{ h}} </mrow>
+                    <mrow> =\amp 50 \text{ km/h (north direction)} </mrow>
+                </md>
+                
+            </p>
+        </solution>
+    </example>
+    <example xml:id="auto_pxsuq4v9">
+        <statement>
+            <p xml:id="auto_gc52ld35">
+                A motorist covers a distance of 360 km in 3 hours travelling from Busia to Bahangongo. Calculate the average speed.
+            </p>
+        </statement>
+        <solution>
+            <p xml:id="auto_5ir57a2o">
+                <m>\text{Speed} = \frac{\text{distance}}{\text{time}}</m>
+            </p>
+            <p xml:id="auto_iwiezobc">
+                <md>
+                    <mrow> \text{Average speed} = \frac{\text{360 km}}{\text{3 h}} </mrow>
+                </md>
+            </p>
+            <p xml:id="auto_4hpw7fkw">
+                <md>
+                    <mrow> \text{120 km/h} </mrow>
+                </md>
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                 A cyclist travels <m>10 \, \text{km}</m> in the positive direction in <m>40 \, \text{minutes}</m>, and then reverses, riding <m>6 \, \text{km}</m> in the negative direction in <m>20 \, \text{minutes}</m>. Calculate the average velocity.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Displacement = <m>10 \text{ km (positive)}</m> + <m>-6 \text{ km (negative)}</m> = <m>4 \text{ km (positive)}</m>
+            </p>
+            <p>
+                Time taken = <m>40 \text{ minutes} + 20 \text{ minutes} = 60 \text{ minutes} = 1 \text{ hour}</m>
+            </p>
+            <p>
+                <md>
+                    <mrow>\text{Average velocity} = \frac{\text{Total displacement}}{\text{Total time}} </mrow>
+                    <mrow>= \frac{4 \text{ km}}{1 \text{ h}} </mrow>
+                    <mrow>= 4 \text{ km/h (positive direction)} </mrow>
+                </md>
+            </p>
+        </solution>
+    </example>
+    <example xml:id="auto_ecoe2brz">
+        <statement>
+            <p xml:id="auto_cwzm87jz">
+                Alex is cycling from home to the market. He rides the first 8 km at a speed of 16 km/h. After reaching a park, 
+                Alex takes a 20-minute break to play football with his friends. Then, he cycles the remaining 6 km to the market at a speed of 12 km/h.
+                What was Alex's average speed for the entire journey?
+            </p>
+        </statement>
+        <solution>
+            <p xml:id="auto_f133hga8">
+                <ol xml:id="auto_zyutzprj">
+                    <li xml:id="auto_w830ub3n">
+                        <p xml:id="auto_qxgmtnup">
+                            Calculating the time for each cycling part.
+                            <ul xml:id="auto_w53ajnbe">
+                                <li xml:id="auto_10wy6d82">
+                                    <p xml:id="auto_uavptzzx">
+                                        <alert>part 1</alert>
+                                    </p>
+                                    <p xml:id="auto_pdwognk6">
+                                        Distance: <m>8 km</m>
+                                    </p>
+                                    <p xml:id="auto_5ycpst8h">
+                                        Speed: <m>16 km/h</m>
+                                    </p>
+                                    <p xml:id="auto_mf0niz8z">
+                                        <md>
+                                            <mrow>\text{Time}\, = \, \frac{\text{Distance}}{\text{Speed}} \, = \, \frac{\text{8 km}}{\text{16 km/h}} \,  = \text{0.5 hours}</mrow>
+                                        </md>
+                                    </p>
+                                </li>
+                                <li xml:id="auto_x1nkzbgf">
+                                    <p xml:id="auto_zyjiz4u3">
+                                        <alert>part 2</alert>
+                                    </p>
+                                    <p xml:id="auto_vn5ueg4n">
+                                        Distance: <m>6 km</m>
+                                    </p>
+                                    <p xml:id="auto_558tjwgr">
+                                        Speed: <m>12 km/h</m>
+                                    </p>
+                                    <p xml:id="auto_idk1993s">
+                                        <md>
+                                            <mrow>\text{Time}\, = \, \frac{\text{Distance}}{\text{Speed}} \, = \, \frac{\text{6 km}}{\text{12 km/h}} \,  = \text{0.5 hours}</mrow>
+                                        </md>
+                                    </p>
+                                </li>
+                            </ul>
+                        </p>
+                    </li>
+                    <li xml:id="auto_8wn1zfen">
+                        <p xml:id="auto_tbwy2eci">
+                            Convert the break time to hours
+                        </p>
+                        <p xml:id="auto_b46jg3au">
+                            <m>\frac{\text{20 minutes}}{\text{60 minutes}} = \frac{1}{3} \, \text{hours}</m>
+                        </p>
+                    </li>
+                    <li xml:id="auto_y6kwuuh7">
+                        <p xml:id="auto_pk8h4eq1">
+                            Calculating the total distance gives
+                        </p>
+                        <p xml:id="auto_dzprjg6x">
+                            <md>
+                                <mrow> \text {Total distance = 8 km + 6 km = 14 km }</mrow>
+                            </md>
+                        </p>
+                    </li>
+                    <li xml:id="auto_t0p3s7ix">
+                        <p xml:id="auto_ndtz9bl9">
+                            Calculating the total time gives
+                        </p>
+                        <p xml:id="auto_pz1o2i3a"> Total time =
+                            <md>
+                                <mrow> \frac{1}{2} \, \text{hours} + \frac{1}{3} \, \text{hours} + \frac{1}{2} \, \text{hours} = 1\frac{1}{3} \, \text{hours}  </mrow>
+                            </md>
+                        </p>
+                    </li>
+                    <li xml:id="auto_q60djqkm">
+                        <p xml:id="auto_7jtdmjy2">
+                            Now Calculating the average speed gives
+                        </p>
+                        <p xml:id="auto_pguax3jr">
+                            <m>\text{Average speed} \, = \, \frac{\text{Total distance}}{\text{Total time}}</m>
+                        </p>
+                        <p xml:id="auto_7ea9ntib">
+                            <m>\text{Average speed} \, = \, \frac{\text{14 km}}{\text{1.33 hours}} \, = \, \text{10.53 km/h} </m> 
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            <p xml:id="auto_y13ncn1y">
+                Alex's average speed for the entire journey was approximately <m>10.53</m> km/h.
+            </p>
+        </solution>
+    </example>
+     <exercise xml:id="ex-calculating-average-speed-with-time-segment">
+        <stack label="stk-calculating-average-speed-with-time-segment" source="stack/top/2-0-Measurement-Geometry/2-9-Linear-Motion/Speed/Calculating-average-speed-with-time-segment.xml"/>
+    </exercise>
+    <exercise xml:id="ex-calculating-average-spent-with-segments">
+        <stack label="stk-calculating-average-spent-with-segments" source="stack/top/2-0-Measurement-Geometry/2-9-Linear-Motion/Speed/Calculating-average-spent-with-segments.xml"/>
+    </exercise>
+    <exercise xml:id="ex-calculating-the-speed-of-a-bus-given-distance-and-time">
+        <stack label="stk-calculating-the-speed-of-a-bus-given-distance-and-time" source="stack/top/2-0-Measurement-Geometry/2-9-Linear-Motion/Speed/Calculating-the-speed-of-a-bus-given-distance-and-time.xml"/>
+    </exercise>
+    <exercises xml:id="exercises-Speed">
+        <exercise xml:id="auto_hjaza2qh">
+            <statement>
+                <p xml:id="auto_cqistlch">
+                    Juma cycled for <m>3</m> hours to a trading centre <m>60</m> km away, then drove <m>250 \,</m>km in a van at 
+                    <m>50 \,</m> km/h and finally cycled home at <m>20 \,</m> km/h. Find the average speed for the whole journey.
+                </p>
+            </statement>
+            <answer>
+                <p xml:id="auto_r0vy11o6">
+                    <m>\text{Average speed} = \frac{60 + 250 + 60}{3 + \frac{250}{50} + \frac{60}{20}}  </m>
+                </p>
+                <p xml:id="auto_wmbqar48">
+                    <m>= \frac{370}{11} \, \text{km/h}</m>
+                </p>
+            </answer>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    If a sprinter runs <m>100 \text{ m}</m> in <m>10 \text{ seconds}</m>, what is his average velocity?
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>10 \, \text{m/s}</m>
+                </p>
+            </answer>
+        </exercise>
+        <exercise xml:id="auto_3d52cgvq">
+            <statement>
+                <p xml:id="auto_swaojzen">
+                    Sarah is rushing to school. She walks the first <m>500 \text{ meters} \,</m> at <m> 5 \, \text{km/h}</m>, 
+                    realizing she's late, she then sprints the next <m>300 \text{ meters} \,</m> at <m> 10 \, \text{km/h}</m>
+                    What was her average speed for the entire trip to school?
+                </p>
+            </statement>
+            <answer>
+                <p xml:id="auto_g2weblqv">
+                    <m>\text{Average speed} = \frac{0.5 + 0.3}{\frac{0.5}{5} + \frac{0.3}{10}}  </m>
+                </p>
+                <p xml:id="auto_2nnzg3ev">
+                    <m> = \frac{80}{13} \ \, \text{km/h}</m>
+                </p>
+            </answer>
+        </exercise>
+        <exercise>
+                <statement>
+                    <p>
+                        The world record for the men's marathon is <m>2:03:38</m>.
+                         If the distance is <m>42.195 \, \text{km}</m>, what is the average velocity during the run?
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        <m>5.69 \, \text{m/s}</m>
+                    </p>
+                </answer>
+            </exercise>
+        <exercise xml:id="auto_pe6bdxnx">
+            <statement>
+                <p xml:id="auto_c9a9yedp">
+                    John walks to the store, a distance of <m>1 \, \text{km}</m>, at a speed of <m>4 \, \text{km/hr}</m>. He spends <m>15 \, \text{minutes}</m> at the store, and then walks back at <m>5 \, \text{km/hr}</m>. 
+                    What was John's average speed for the entire trip, including the time spent at the store
+                </p>
+            </statement>
+            <answer>
+                <p xml:id="auto_3eli3t73">
+                    <m>\text{Average speed} = \frac{1 + 1}{\frac{1}{4} + \frac{1}{5} + \frac{15}{60}}  </m>
+                </p>
+                <p xml:id="auto_99qzu1il">
+                    <m>= \frac{20}{7} \ \, \text{km/h}</m>
+                </p>
+            </answer>
+        </exercise>
+        <exercise xml:id="auto_kd0szga7">
+            <statement>
+                <p xml:id="auto_2mdzdtbb">
+                    A hiker covered <m>12 \,\text{ km in}\, 3\, \text{ hours}</m>. After taking a <m>15 \, \text{ minute}</m> break, 
+                    what speed must the hiker maintain to reach their destination within a total travel time of <m>4 \, \text{ hours}</m>?
+                </p>
+            </statement>
+            <answer>
+                <p xml:id="auto_fut53orw">
+                    <m>\text{Required speed} = \frac{12 \text{ km}}{4 \text{ hours} - 3 \text{ hours} - \frac{15 }{60} \text{hours}}  </m>
+                </p>
+                <p xml:id="auto_2vpunfyk">
+                    <m> = 16 \, \text{km/h}</m>
+                </p>
+            </answer>
+        </exercise>
+        <exercise xml:id="auto_71dhkg09">
+            <statement>
+                <p xml:id="auto_mdw1o0po">
+                    A runner completed <m>10 \, \text{ km in} 1.5 \, \text{ hours}</m>.
+                    After a <m>\text{5 minute}</m> rest, what pace does the runner need to maintain to finish a total distance within <m>\text{2 hours}</m>?
+                </p>
+            </statement>
+            <answer>
+                <p xml:id="auto_2xz94oy2">
+                    <m>\text{Required pace} = \frac{10 \text{ km}}{2 \text{ hours} - 1.5 \text{ hours} - \frac{5}{60} \text{hours}}</m>
+                </p>
+                <p xml:id="auto_gs0f2a1e">
+                    <m>= 24 \, \text{km/h}</m>
+                </p>
+            </answer>
+        </exercise>
+        <exercise xml:id="auto_601brggg">
+            <statement>
+            <p xml:id="auto_u99zyb3e">
+                A train journey consisted of three segments. The train traveled for <m>3 \text{ hours at} \, 90 \text{ km/h}</m>, then paused for <m>0.75 \text{ hours}</m> at a station,
+                and finally continued for <m>2 \text{ hours at} \, 70 \text{ km/h}</m>.
+                What was the average speed of the train for the entire journey?
+            </p>
+            </statement>
+            <answer>
+                <p xml:id="auto_29lxs5vn">
+                    <m>\text{Average speed} = \frac{(3 \times 90) + (2 \times 70)}{3 + 0.75 + 2}  </m>
+                </p>
+                <p xml:id="auto_zztd5a1i">
+                    <m>= \frac{1640}{23} \, \text{km/h}</m>
+                </p>
+            </answer>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    A sailboat is traveling north at <m>10 \, \text{km/h}</m>, relative to the water. The water is flowing north at <m>5 \, \text{km/h}</m>. 
+                    What is the velocity of the boat relative to ground? 
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>15 \, \text{km/h}</m>
+                </p>
+            </answer>
+        </exercise>
+    </exercises>   
+</subsection>

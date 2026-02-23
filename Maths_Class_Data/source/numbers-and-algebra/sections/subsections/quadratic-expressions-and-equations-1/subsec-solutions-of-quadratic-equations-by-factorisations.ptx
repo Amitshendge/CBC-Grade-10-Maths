@@ -1,0 +1,425 @@
+<subsubsection xml:id="subsubsec-solving-quadratic-equations" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Solving Quadratic Equations</title>
+    <objectives component="outcomes">
+        <introduction>
+            <dl>
+                <li>
+                    <title>Strand</title>
+                    <p>
+                        1.0 Numbers and Algebra
+                    </p>
+                </li>
+                <li>
+                    <title>Sub-Strand</title>
+                    <p>
+                        1.3 Quadratic Expressions and Equations
+                    </p>
+                </li>
+            </dl>
+        </introduction>
+        <ul>
+            <li>Solve quadratic equations by factorisation</li>
+        </ul>
+    </objectives>
+    <axiom component="resources">
+        <!-- Link to blurb -->
+        <xi:include href="../../resources-blurb-lesson.ptx" />
+
+        <sbsgroup widths="45% 45%" margins="2% 2%">
+            <sidebyside>
+                <p>
+                    <dataurl source="lesson_plans/numbers-and-algebra/quadratic-expressions-and-equations/solving-quadratic-equations.pdf"> Lesson Plan </dataurl>
+                </p>
+                <p>
+                    <dataurl source="lesson_plans/numbers-and-algebra/quadratic-expressions-and-equations/step-by-step-guide_solving-quadratic-equations.pdf"> Step-by-Step Guide </dataurl>
+                </p>
+            </sidebyside>
+        </sbsgroup>
+    </axiom>
+
+
+    <activity xml:id="auto_9jwu39hn">
+    <p xml:id="auto_is5r0so8">
+        <em><term>Work in Groups.</term></em>
+    </p>
+    <p xml:id="auto_o678p0yf">
+        Find the roots of the equation using factorization.
+        <ol xml:id="auto_2s3uf3hd" marker="(i).">
+            <li xml:id="auto_62fw5oe5">
+                <p xml:id="auto_cqgldvnu"><m>x^2 - 5x + 6 = 0</m>.</p>
+            </li>
+            <li xml:id="auto_ic3swvf1">
+                <p xml:id="auto_m9nkpj7u"><m>x^2 + 7x + 10 = 0</m>.</p>
+            </li>
+        </ol>
+    </p>
+    <p xml:id="auto_rnn09z4g">
+        After solving the equations, discuss the following:
+        <ul xml:id="auto_yvido7h7">
+            <li xml:id="auto_9ksk5kac">
+                <p xml:id="auto_wzorkkpd">What steps did you follow in factorizing the quadratic equation?</p>
+            </li>
+            <li xml:id="auto_4ux0ps5w">
+                <p xml:id="auto_3a7xce1o">How do the roots relate to the factors of the quadratic equation?</p>
+            </li>
+            <li xml:id="auto_tx7dxob4">
+                <p xml:id="auto_ih6ilajw">Did any group use a different method to factorize the equation? Compare approaches.</p>
+            </li>
+        </ul>
+    </p>
+    <p xml:id="auto_uwcc3wsr">
+        Finally, each group will share their solved quadratic equations and the methods they used infront of the classroom.
+    </p>
+</activity>
+    <p xml:id="auto_p982ehso">
+        In our previous sections we have discussed the form of a quadratic expression, 
+        identities and quadratic equations; how to form quadratic equations and differentiate between an expression and equation
+    </p>
+    <p xml:id="auto_y92h565p">
+        In this section we are going to learn about solving the factored equation, 
+        we are going to continue from the point where we form  factored equation
+    </p>
+    <p xml:id="auto_h9161zo3">
+        Numbers that satisfy an equation (its solutions) are called the <em><term>roots</term></em> of the equation. 
+    </p>
+    <p xml:id="auto_xib6zowd">
+        Once you have factored the quadratic into the form;
+          <md>
+             <mrow>(x+p)(x+q) \amp = 0 </mrow>
+         </md>
+        Set each factor equal to zero and solve for <m>x</m>:        
+    </p>
+    <sidebyside>
+        <p xml:id="auto_63x8g4lg">
+            <md>
+                <mrow>(x + p) \amp = 0 </mrow> 
+            </md>
+        </p>
+        <p xml:id="auto_kdoha1uc">
+            <md>
+                <mrow> \text{or} \amp </mrow>
+            </md>
+        </p>
+        <p xml:id="auto_z3vxrby4">
+            <md>
+                <mrow>(x + q) \amp = 0 </mrow>
+            </md>
+        </p>
+    </sidebyside>
+    <p xml:id="auto_kzfcyelb">
+        Solving these will give the two solutions for <m>x</m>.
+    </p>
+    <example xml:id="auto_mkxtaz7b">
+        <statement>
+            <p xml:id="auto_zrzcvxz9">
+                
+            </p>
+            <p xml:id="auto_6644tjc1">
+                Solve
+                <md>
+                    <mrow>x^2 + 5x + 6 \amp = 0 </mrow>
+                </md>
+            </p>
+        </statement>
+        <solution>
+            <p xml:id="auto_aj0tw3gm">
+                Look for two numbers that if multiplied by <m>6</m> and when added up gives <m>5</m>
+            </p>
+            <p xml:id="auto_x1wb3uth">
+                These numbers are <m>2</m> and <m>3.</m> So we can write the equation as:
+                <md>
+                    <mrow>x^2 + 2x + 3x + 6 \amp = 0 </mrow>
+                </md>
+                Finding a common factor we have:
+                <md>
+                    <mrow>x(x + 2) + 3(x + 2) \amp = 0 </mrow>
+                </md>
+                Grouping we have th factors of the equation as:
+                <md>
+                    <mrow>(x +2) (x + 3) \amp = 0 </mrow>
+                </md>
+            </p>
+            <p xml:id="auto_nwoiq0rw">
+                Setting each factor equal to zero (0).
+            </p>
+            <sidebyside>
+                <p xml:id="auto_lb9szcxi">
+                    <me>
+                        x + 2 = 0
+                    </me>                    
+                </p>
+                <p xml:id="auto_3ol9lk7v">
+                    <me>
+                        \text{or}
+                    </me>                    
+                </p>
+                <p xml:id="auto_76cplxua">
+                    <me>
+                        x + 3 = 0
+                    </me>                    
+                </p>
+            </sidebyside>
+            <p xml:id="auto_0hsprly4">
+                Solving for <m>x.</m>
+            </p>
+            <sidebyside>
+                <p xml:id="auto_5aqg7o66">
+                    <me>
+                        x  = -2
+                    </me>
+                </p>
+                <p xml:id="auto_vopc5d8f">
+                    <me>
+                        \text{or}
+                    </me>                    
+                </p>
+                <p xml:id="auto_5tu4esv8">
+                    <me>
+                        x = -3
+                    </me>
+                </p>                
+            </sidebyside>
+            <p xml:id="auto_y20m8r8o">
+                Thus, the solutions to the quadratic equation <m>x^+5x+6=0</m> are;
+                <me>
+                    x = (-2) \, \text {and} \, x = (-3).
+                </me>                    
+            </p>
+        </solution>
+    </example>
+    <example xml:id="auto_el0pwzfm">
+        <statement>
+            <p xml:id="auto_vg47bf6i">
+                
+            </p>
+            <p xml:id="auto_edolep2y">
+                Solve,
+                <md>
+                    <mrow> 6x^2 + 13x + 6 \amp = 0 </mrow>
+                </md>
+            </p>
+        </statement>
+        <solution>
+            <p xml:id="auto_6kl0b5i5">
+                We need 2 numbers to form factors, which when;
+                <ul xml:id="auto_ztol9o49">
+                    <li xml:id="auto_setozos2">
+                        <p xml:id="auto_2j2o2bgz">
+                            Multiplied to <m>6 \times 6 = 36</m>
+                        </p>
+                    </li>
+                    <li xml:id="auto_kry9nfc9">
+                        <p xml:id="auto_2vxpdixw">
+                            Added up gives <m>13.</m>
+                        </p>
+                    </li>
+                </ul>
+            </p>
+            <p xml:id="auto_iydpcqhv">
+                These numbers are <m>9</m> and <m>4.</m> So rewrite the middle part.
+                <md>
+                    <mrow>6x^2 + 9x + 4x + 6 \amp = 0 </mrow>
+                </md>
+                Grouping the factors:
+                <md>
+                    <mrow>(6x^2 + 9x) + (4x + 6) \amp = 0 </mrow>
+                </md>
+                Factor each group:
+                <md>
+                    <mrow>3x(2x + 3) + 2(2x + 3) \amp = 0 </mrow>
+                </md>
+                <m>\,</m>
+                <md>
+                    <mrow>(2x+3)(3x+2) \amp = 0 </mrow>
+                </md>
+                Set each factor eaqual to zero:
+            </p>
+            <sidebyside>
+                <p xml:id="auto_yqsbbsyx">
+                    <me>
+                        2x + 3 = 0
+                    </me>                    
+                </p>
+                <p xml:id="auto_1cl424g0">
+                    <me>
+                        \text{or}
+                    </me>                    
+                </p>
+                <p xml:id="auto_hmq5fqmp">
+                    <me>
+                        3x + 2 = 0
+                    </me>                    
+                </p>
+            </sidebyside>
+
+                <p xml:id="auto_hrwto7ns">
+                    Solving for <m>x.</m>
+                </p>
+
+            <sidebyside>
+                <p xml:id="auto_iuan04n7">
+                   <me>
+                        x = -\frac{3}{2}
+                   </me>                   
+                </p>
+                <p xml:id="auto_sh5s1r7s">
+                    <me>
+                        \text{or}
+                    </me>                    
+                </p>
+                <p xml:id="auto_8vcbuejh">
+                    <me>
+                        x = -\frac{2}{3}
+                    </me>                    
+                </p>                
+            </sidebyside>
+            <p xml:id="auto_gk22jd22">
+                Thus, the solutions to <m>6x^2 +13x+6=0</m> are:
+                <me>
+                    x = -\frac{3}{2} \, \text{and} \, x = -\frac{2}{3}
+                </me>                    
+            </p>
+        </solution>
+    </example>
+    <exercises xml:id="exercises-quadratic-equations">
+         <title>Exercise</title>
+         <exercise>
+            <statement>
+                <p xml:id="auto_buwju945">
+                    Solve the quadratic equation by factorisation.
+                    <ol xml:id="auto_oppzhdup" marker="(i)" cols="2">
+                        <li xml:id="auto_y1dhrkno">
+                            <p xml:id="auto_vfi5sdu7">
+                                <m>x^2 + 7x + 10 = 0</m>
+                            </p>
+                        </li>
+                        <li xml:id="auto_3xkfrdrs">
+                            <p xml:id="auto_591dn2u3">
+                               <m> x^2 - 5x + 6 = 0</m>
+                            </p>
+                        </li>
+                        <li xml:id="auto_0yoi4xgy">
+                            <p xml:id="auto_i1a4ak21">
+                                <m>x^2 + 3x - 4 = 0</m>
+                            </p>
+                        </li>
+                        <li xml:id="auto_z34pqjf0">
+                            <p xml:id="auto_i5we4ynu">
+                                <m>2x^2 + 9x + 7 = 0</m>
+                            </p>
+                        </li>
+                        <li xml:id="auto_nzdwwz34">
+                            <p xml:id="auto_2hkstv6o">
+                                <m>x^2 - 6x + 8 = 0</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <ol marker="i)">
+                        <li>
+                            <p> 
+                                <m>x = -5 \, \text{and} \, x = -2.</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>x = 2 \, \text{and} \, x = 3.</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>x = 1 \, \text{and} \, x = -4.</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>x = -1 \, \text{and} \, x = -\frac{7}{2}.</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>x = 2 \, \text{and} \, x = 4.</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </answer>
+         </exercise>
+         <exercise>
+            <statement>
+                <p>
+                    A car's speed is represented by a quadratic equation: 
+                    <md>
+                        <mrow>4x^2 - 16x + 15 \amp = 0 </mrow>
+                    </md>. 
+                    Find the possible values of x representing time.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>x = 1 \, \text{and} \, x = \frac{15}{4}.</m>
+                </p>
+            </answer>
+         </exercise>
+         <exercise>
+            <statement>
+                  <p>
+                     The sum of a number and its square is <m>42</m>. 
+                     Form a quadratic equation and solve it to find the number.
+                  </p>
+            </statement>
+            <answer>
+                <p>
+                    Let the number be <m>x.</m> Then the equation can be written as:
+                    <md>
+                        <mrow>x^2 + x - 42 \amp = 0 </mrow>
+                    </md>
+                    Solving this gives:
+                    <m>x = 6 \, \text{and} \, x = -7.</m> 
+                </p>
+            </answer>
+         </exercise>
+         <exercise>
+            <statement>
+                <p>
+                    Solve the quadratic equation:
+                    <md>
+                        <mrow> 3x^2 - 14x + 8 \amp = 0 </mrow>
+                    </md>                                
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>x = 2 \, \text{and} \, x = \frac{4}{3}.</m>
+                </p>
+            </answer>
+         </exercise>
+            <exercise>
+                <statement>
+                    <p>
+                        A garden's area is 56 square meters, and its length is 4 meters more than its width. 
+                        Form and solve a quadratic equation to find the dimensions of the garden.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Let the width of the garden be <m>x</m> meters. Then the length can be expressed as <m>x + 4</m> meters. 
+                        The area of the garden can be represented by the equation:
+                        <md>
+                            <mrow>x(x + 4) \amp = 56 </mrow>
+                        </md>
+                        Expanding this gives:
+                        <md>
+                            <mrow>x^2 + 4x - 56 \amp = 0 </mrow>
+                        </md>
+                        Solving this quadratic equation yields:
+                        <m>x = 7 \, \text{and} \, x = -8.</m> 
+                        Since dimensions cannot be negative, the width of the garden is <m>7</m> meters and the length is <m>11</m> meters.
+                    </p>
+                </answer>
+                </exercise>
+            </exercises>
+</subsubsection>
